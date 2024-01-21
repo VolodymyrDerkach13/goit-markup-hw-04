@@ -59,7 +59,8 @@ address {
 
 .header {
     border-bottom: 1px solid var(--CORNFLOWER, #E7E9FC);
-        background: var(--WHITE, #FFF);
+    background: var(--WHITE, #FFF);
+    box-shadow: 0px 1px 6px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 2px 1px 0px rgba(46, 47, 66, 0.08);
 }
 
 .header-container {
@@ -122,6 +123,22 @@ address {
     font-style: normal;
 }
 
+.menu-studio {
+    position: relative;
+    color: #404BBF;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.menu-studio::after{
+width: 100%;
+position: absolute;
+left: 0;
+bottom: -1px;
+height: 4px;
+background-color: #404BBF;
+border-radius: 2px;
+}
+
 .address-list {
     display: flex;
     gap: 40px;
@@ -135,6 +152,7 @@ address {
         font-weight: 400;
         line-height: 1.5;
         letter-spacing: 0.02em;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .header-menu-link:hover {
