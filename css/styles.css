@@ -186,17 +186,16 @@ border-radius: 2px;
 }
 
 .hero-container {
-    padding-top: 188px;
-    padding-bottom: 188px;
-    background-color: #2E2F42;
-    background-image: linear-gradient(
-        rgba(46, 47, 66, 0.70),
-        rgba(46, 47, 66, 0.70)
-    ),
-     url(../images/people-office.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+    max-width: 1440px;
+        padding-top: 188px;
+        padding-bottom: 188px;
+        background-color: #2E2F42;
+        background-image: linear-gradient(rgba(46, 47, 66, 0.70),
+                rgba(46, 47, 66, 0.70)),
+            url(../images/people-office.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
 }
 
 .hero-title {
