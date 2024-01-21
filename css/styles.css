@@ -347,6 +347,7 @@ border-radius: 2px;
         font-weight: 400;
         line-height: 1.5;
         letter-spacing: 0.02em;
+    padding-bottom: 8px;
 }
 
 .team-soc-list {
@@ -370,6 +371,7 @@ border-radius: 2px;
     flex-shrink: 0;
     justify-content: center;
     align-items: center;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .team-soc-link:hover {
